@@ -1,5 +1,11 @@
+# pip install kaleido
+
+
+
 import plotly.graph_objects as go
 import plotly.express as px
+import plotly.graph_objects as go
+
 
 
 cities = [
@@ -80,5 +86,9 @@ fig.update_layout(
     width=900  ,
     height=600  ,
 )
+
+
+fig.write_image("plot.png")  
+
 
 fig.show()
