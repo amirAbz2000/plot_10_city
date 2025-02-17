@@ -56,7 +56,7 @@ fig.add_trace(go.Choroplethmapbox(
     geojson=iran_geojson,
     locations=[0],
     featureidkey="properties",
-    z=[1],  # مقدار عددی رنگ برای نقشه پایه
+    z=[1],  
     colorscale="Viridis",
     showscale=True
 ))
